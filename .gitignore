@@ -1,0 +1,62 @@
+# Build klasörleri
+build/
+Release/
+Debug/
+x64/
+x86/
+Win32/
+out/
+cmake-build-*/
+
+# Derleyici çıktıları
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# CMake çıktıları
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+CMakeSettings.json
+cmake_install.cmake
+compile_commands.json
+install_manifest.txt
+CTestTestfile.cmake
+
+# Visual Studio ve Visual Studio Code
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+*.aps
+*.ncb
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+
+# IDE dosyaları
+.idea/
+*.swp
+*.swo
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini 
